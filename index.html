@@ -193,6 +193,32 @@
             <i class="fas fa-envelope"></i>
         </a>
     </section>
+    <section class="recruitment-section">
+        <div class="recruitment-content">
+            <h1>Excited About Robotics? Get in Touch!</h1>
+            <p>Join us and be part of a vibrant community. Collaborate, innovate, and grow with like-minded individuals.</p>
+            <a href="#join-form" class="recruitment-btn">Apply Now</a>
+        </div>
+        <div class="recruitment-image">
+            <img src="https://media0.giphy.com/media/5k5vZwRFZR5aZeniqb/giphy.gif?cid=6c09b9527cdp8ii1q72pt9hxfrkki02iaokt3qdgb9agci0k&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="Robotics Club" />
+        </div>
+        <!-- Modal Form -->
+        <div class="modal" id="applyFormModal">
+            <div class="modal-content">
+                <span class="close-btn" id="closeModal">&times;</span>
+                <h2>Apply to Join the Club</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Why do you want to join?</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
     <footer class="footer">
         <p>© 2024 Robotics Club Vit chennai. All rights reserved.</p>
     </footer>
@@ -214,5 +240,4 @@
         });
     });
 </script>
-
 </html>
